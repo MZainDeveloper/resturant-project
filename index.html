@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restuarant</title>
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="./all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap">
+    <!-- css file -->
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- start nav -->
+    <div class="mainNav" id="home">
+        <div class="navTop">
+            <div class="left">
+                <div>Restaurant St, Delicious City, London 9578, U</div>
+                <div class="icon"></div>
+                <div>Daily : 8.00 am to 10.00 pm</div>
+            </div>
+            <div class="right">
+                <div><a href="tel:+80 (400) 123 4567">+80 (400) 123 4567</a></div>
+                <div class="email"><a href="mailto:heid3424@gmail.com">heid3424@gmail.com</a></div>
+            </div>
+        </div>
+        <hr class="navTopLine">
+        <div class="navBottom">
+            <div class="Logo">
+                <a href="#"><img src=".//logo.svg" alt=""></a>
+            </div>
+            <div class="navbar">
+                <ul class="normalNav">
+                    <li>
+                        <a href="#home">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#menus">MENUS</a>
+                    </li>
+                    <li>
+                        <a href="#about-us">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a href="#services">SERVICES</a>
+                    </li>
+                    <li>
+                        <a href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+                <button class="colored-btn">
+                    <a href="#">FIND A TABLE</a>
+                </button>
+                <div class="menu" id="menu" type = "button" data-bs-toggle = "offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <span class="one"></span>
+                    <span class="two"></span>
+                    <span class="three"></span>
+                </div>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasLabel">
+                    <div class="offcanvas-header">
+                        <a href="#"><img src="./images/logo.svg" class="offcanvas-title" id="offcanvasLabel"/></a>
+                        <button type="button" class="btn-close" data-bs-dismiss = "offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul>
+                            <li>
+                                <a href="#home">HOME</a>
+                            </li>
+                            <li>
+                                <a href="#menus">MENUS</a>
+                            </li>
+                            <li>
+                                <a href="#about-us">ABOUT US</a>
+                            </li>
+                            <li>
+                                <a href="#services">Services</a>
+                            </li>
+                            <li>
+                                <a href="#contact">CONTACT</a>
+                            </li>
+                        </ul>
+                        <div class="offcanvas-content">
+                            <h1>Visit Us</h1>
+                            <p class="p-colored">
+                                Restaurant St, Delicious City, London 9578, UK
+                            </p>
+                            <p class="p-colored">
+                                Open: 9.30 am - 2.30pm
+                            </p>
+                            <p class="p-colored">
+                                <a href="mailto:heid3424@gmail.com">heid3424@gmail.com</a>
+                            </p>
+                            <span></span>
+                            <h4>
+                                Booking Request
+                            </h4>
+                            <div class="phone">
+                                +20 1146397960
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end nav -->
+
+    <!-- start section -->
+    <div class="section">
+        <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride = "carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active"  data-bs-interval = "5000"> <!-- delay -->
+                    <img src="./images/hero-slider-1.jpg" alt="" class="d-block w-100">
+                    <div class="content">
+                        <div class="subTitle">
+                            TRADATIONAL & HYGINE
+                        </div>
+                        <h1 class="mainTitle">
+                            For the love of delicious food
+                        </h1>
+                        <p>
+                            Come with family & feel the joy of mouthwatering food
+
+                        </p>
+                        <button class="unColored-btn">
+                            <a href="#">VIEW OUR MENU</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval = "5000" >
+                    <img src="./images/hero-slider-2.jpg" alt="" class="d-block w-100">
+                    <div class="content">
+                        <div class="subTitle">
+                            DELIGHTFUL EXPERIECE
+                        </div>
+                        <h1 class="mainTitle">
+                            Flavors Inspired by the Seasons
+                        </h1>
+                        <p>
+                            Come with family & feel the joy of mouthwatering food
+
+                        </p>
+                        <button class="unColored-btn">
+                            <a href="#">VIEW OUR MENU</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval = "5000">
+                    <img src="./images/hero-slider-3.jpg" alt="" class="d-block w-100">
+                    <div class="content">
+                        <div class="subTitle">
+                            AMAZING & DELICIOUS
+                        </div>
+                        <h1 class="mainTitle">
+                            Where every flavor tells a story
+                        </h1>
+                        <p>
+                            Come with family & feel the joy of mouthwatering food
+
+                        </p>
+                        <button class="unColored-btn">
+                            <a href="#">VIEW OUR MENU</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target = "#carouselExample" data-bs-slide = "prev">
+                <span></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target = "#carouselExample" data-bs-slide = "next">
+                <span></span>
+            </button>
+            <div class="rotated-img">
+                <img src="./images/hero-icon.png" alt="">
+                <a href="#">Book A Table</a>
+            </div>
+        </div>
+    </div>
+    <!-- end section -->
+
+    <!-- start topIcon -->
+    <div class="topIcon" id="topIcon">
+        <i class="fas fa-long-arrow-up"></i>
+    </div>
+    <!-- end topIcon -->
+
+    <!-- start services -->
+    <div class="services" id="services">
+        <div class="container">
+            <div class="top-content">
+                <div class="subTitle">FLAVORS FOR ROYALTY</div>
+                <h1 class="mainTitle">We Offer Top Notch</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae pariatur, recusandae quasi numquam distinctio in. Amet rem nulla maxime, repudiandae eum itaque, quis sunt voluptate enim, ullam natus deserunt facere.
+                </p>
+            </div>
+            <div class="bottom-content">
+                <div class="service">
+                    <div class="image">
+                        <div class="inside prettyImg">
+                            <img src="./images/service-1.jpg" alt="">
+                        </div>
+                    </div>                    <h3>Breakfase</h3>
+                    <a href="#menu">VIEW MENU</a>
+                </div>
+
+                <div class="service">
+                    <div class="image">
+                        <div class="inside prettyImg">
+                            <img src="./images/service-2.jpg" alt="">
+                        </div>
+                    </div>                    <h3>Appetizers</h3>
+                    <a href="#menu">VIEW MENU</a>
+                </div>
+
+                <div class="service">
+                    <div class="image">
+                        <div class="inside prettyImg">
+                            <img src="./images/service-2.jpg" alt="">
+                        </div>
+                    </div>
+                    <h3>Drinks</h3>
+                    <a href="#menu">VIEW MENU</a>
+                </div>
+            </div>
+        </div>
+        <img src="./images/shape-2.png" alt="" class="shap one">
+        <img src="./images/shape-1.png" alt="" class="shap two">
+    </div>
+    <!-- end services -->
+
+    <!-- start books -->
+    <div class="books">
+        <div class="container">
+            <div class="content">
+                <div class="subTitle">OUR STORY</div>
+                <h1 class="mainTitle">Every Fla vor Tells a Story</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro quasi ad temporibus nemo aliquid! Quo aperiam nesciunt voluptatum sint reiciendis, error quaerat quam. Laudantium ea eum sapiente aliquam nam beatae?
+                </p>
+                <h3>Book Through Call</h3>
+                <div class="phone"><a href="tel:+80 (400) 123 4567">+80 (400) 123 4567</a></div>
+                <button class="unColored-btn">READ MORE</button>
+            </div>
+            <div class="images">
+                <img src="./images/about-banner.jpg" alt="">
+                <img src="./images/about-abs-image.jpg" alt="">
+                <img src="./images/badge-2.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- end books -->
+
+    <!-- dish-banner start -->
+    <div class="dish-banner">
+        <div class="image">
+            <img src="./images/special-dish-banner.jpg" alt="">
+        </div>
+        <div class="content">
+            <div class="subTitle">SPECIAL DISH</div>
+            <div class="mainTitle">Lobster Tortellini</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptates incidunt mollitia. Quisquam rem animi consequatur tempore, et recusandae, enim eum commodi reiciendis suscipit assumenda doloremque cupiditate magni perferendis cum?</p>
+            <div class="price"><span>$40.00</span><span>$20.00</span></div>
+            <button class="unColored-btn">VIEW OUR MENU</button>
+        </div>
+    </div>
+    <!-- dish-banner end -->
+
+    <!-- start menu -->
+    <div class="menus" id="menus">
+        <div class="container">
+            <div class="top-content">
+                <div class="subTitle">SPECIAL SELECTION</div>
+                <h1 class="mainTitle">Delicious Menu</h1>
+            </div>
+            <div class="bottom-content">
+                <div class="dish">
+                    <div class="image">
+                        <img src="./images/menu-1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="head">
+                            <h3><a href="#">
+                                <pre>Greek Salad</pre>
+                            </a></h3>
+                            <div class="seasonal">SEASONAL</div>
+                            <div class="betweenThem"></div>
+                            <div class="price">$25.50</div>
+                        </div>
+                        <p class="p-colored">
+                            Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="image">
+                        <img src="./images/menu-2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="head">
+                            <h3><a href="#">
+                                <pre>Lasagne</pre>
+                            </a></h3>
+                            <div class="betweenThem"></div>
+                            <div class="price">$40.50</div>
+                        </div>
+                        <p class="p-colored">
+                            Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices
+                        </p>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="image">
+                        <img src="./images/menu-3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="head">
+                            <h3><a href="#">
+                                <pre>Butternut Pumpkin</pre>
+                            </a></h3>
+                            <div class="betweenThem"></div>
+                            <div class="price">$10.50</div>
+                        </div>
+                        <p class="p-colored">
+                            Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="image">
+                        <img src="./images/menu-4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="head">
+                            <h3><a href="#">
+                                <pre>Tokusen Wagyu</pre>
+                            </a></h3>
+                            <div class="seasonal">NEW</div>
+                            <div class="betweenThem"></div>
+                            <div class="price">$39.50</div>
+                        </div>
+                        <p class="p-colored">
+                            Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="image">
+                        <img src="./images/menu-5.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="head">
+                            <h3><a href="#">
+                                <pre>Olivas Rellenas</pre>
+                            </a></h3>
+                            <div class="betweenThem"></div>
+                            <div class="price">$25.50</div>
+                        </div>
+                        <p class="p-colored">
+                            Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="image">
+                        <img src="./images/menu-6.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="head">
+                            <h3><a href="#">
+                                <pre>Opu Fish</pre>
+                            </a></h3>
+                            <div class="betweenThem"></div>
+                            <div class="price">$49.50</div>
+                        </div>
+                        <p class="p-colored">
+                            Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="winter-date">
+                <p>During winter daily from <span class="date"> 7:00 pm</span> to<span class="date"> 9:00 pm</span></p>
+                <button class="unColored-btn">VIEW OUR MENUS</button>
+            </div>
+        </div>
+        <img src="./images/shape-5.png" class="shape-5"/>
+        <img src="./images/shape-6.png" class="shape-6"/>
+    </div>
+    <!-- end menu -->
+
+    <!-- i didn't know what can i name that so now its thanks section -->
+    <!-- start thanks -->
+
+    <div class="thanks">
+        <div class="image">
+            <img src="./images/testimonial.jpg" alt="">
+        </div>
+        <div class="content">
+            <i class="fa-solid fa-quote-left"></i>
+            <h1 class="mainTitle">
+                I wanted to thank you for inviting me down for that amazing dinner the other night. The food was extraordinary.
+            </h1>
+            <div class="spans">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- end thanks -->
+
+    <!-- start reversation -->
+    <div class="reversation">
+        <div class="container">
+            <div class="rever-form">
+                <div class="head">
+                    <h1>Online Reservation</h1>
+                    <p>Booking request <span class="phone"> +88-123-123456</span> or fill out the order form</p>
+                </div>
+                <form action="#" >
+                    <div class="formSlide">
+                        <input type="text" placeholder="Your Name" >
+                        <input type="text" placeholder="Phone Number" >
+                    </div>
+                    <div class="formSlide">
+                        <select name="numOfPersons" id="1-p">
+                            <option value="1-person">1 Person</option>
+                            <option value="2-person">2 Person</option>
+                            <option value="3-person">3 Person</option>
+                            <option value="4-person">4 Person</option>
+                            <option value="5-person">5 Person</option>
+                            <option value="6-person">6 Person</option>
+                            <option value="7-person">7 Person</option>
+                        </select>
+                        <input type="date" placeholder="MM/DD/YYYY">
+                        <select name="dateOfReversation" id="date">
+                            <option value="8am">08:00 am</option>
+                            <option value="8am">09:00 am</option>
+                            <option value="8am">10:00 am</option>
+                            <option value="8am">11:00 am</option>
+                            <option value="8am">12:00 am</option>
+                            <option value="8am">01:00 pm</option>
+                            <option value="8am">02:00 pm</option>
+                            <option value="8am">03:00 pm</option>
+                            <option value="8am">04:00 pm</option>
+                            <option value="8am">05:00 pm</option>
+                            <option value="8am">06:00 pm</option>
+                            <option value="8am">07:00 pm</option>
+                            <option value="8am">08:00 pm</option>
+                            <option value="8am">09:00 pm</option>
+                            <option value="8am">10:00 pm</option>
+                        </select>
+                    </div>    
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="message"></textarea>
+                    <button class="colored-btn">
+                        <a href="#">BOOK A TABLE</a>
+                    </button>
+                </form>
+            </div>
+            <div class="contact">
+                <h1>Contact Us</h1>
+                <div class="bar">
+                    <h3>
+                        Booking Request
+                    </h3>
+                    <div class="phone">
+                        +20 1146397960
+                    </div>
+                </div>
+                <div class="bar">
+                    <h3>
+                        Location
+                    </h6>
+                    <p class="p-colored">
+                        Restaurant St, Delicious City,London 9578, UK
+                    </p>
+                </div>
+                <div class="bar">
+                    <h4>
+                        Lunch Time
+                    </h4>
+                    <div">
+                        <p class="p-colored">Monday to Sunday</p>
+                        <p class="p-colored">11.00 am - 2.30pm</p>
+                    </p>
+                </div>
+                <div class="bar">
+                    <h4>
+                        Dinner Time
+                    </h4>
+                    <div>
+                        <p class="p-colored">Monday to Sunday</p>
+                        <p class="p-colored">05.00 pm - 10.00pm</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end reversation -->
+
+    <!-- start strengths -->
+    <div class="strengths">
+        <div class="container">
+            <div class="subTitle">WHY CHOOSE US</div>
+            <h1 class="mainTitle">Our Strength</h1>
+            <div class="content">
+                <div class="strength">
+                    <div class="image">
+                        <img src="./images/features-icon-1.png" alt="">
+                    </div>
+                    <h4>Hygienic Food</h4>
+                    <p class="p-colored">Lorem Ipsum is simply dummy printing and typesetting.</p>
+                </div>
+
+                <div class="strength">
+                    <div class="image">
+                        <img src="./images/features-icon-2.png" alt="">
+                    </div>
+                    <h4>Fresh Environment</h4>
+                    <p class="p-colored">Lorem Ipsum is simply dummy printing and typesetting.</p>
+                </div>
+
+                <div class="strength">
+                    <div class="image">
+                        <img src="./images/features-icon-3.png" alt="">
+                    </div>
+                    <h4>Skilled Chefs</h4>
+                    <p class="p-colored">Lorem Ipsum is simply dummy printing and typesetting.</p>
+                </div>
+
+                <div class="strength">
+                    <div class="image">
+                        <img src="./images/features-icon-4.png" alt="">
+                    </div>
+                    <h4>Event & Party</h4>
+                    <p class="p-colored">Lorem Ipsum is simply dummy printing and typesetting.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./images/shape-7.png" alt="">
+        <img src="./images/shape-8.png" alt="">
+    </div>
+    <!-- end strengths -->
+
+    <!-- start updates -->
+    <div class="updates">
+        <div class="container">
+            <div class="subTitle">RECENT UPDATES</div>
+            <h1 class="mainTitle">Upcoming Event</h1>
+            <div class="content">
+                <div class="update">
+                    <div class="prettyImg">
+                        <img src="./images/event-1.jpg" alt="">
+                    </div>
+                    <div class="date">15/09/2022</div>
+                    <div class="content">
+                        <div class="subTitle">FOOD, FLAVOUR</div>
+                        <h4>
+                            Flavour so good you’ll try to eat with your eyes.
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="update">
+                    <div class="prettyImg">
+                        <img src="./images/event-2.jpg" alt="">
+                    </div>
+                    <div class="date">08/09/2022</div>
+                    <div class="content">
+                        <div class="subTitle">HEALTHY FOOD</div>
+                        <h4>
+                            Flavour so good you’ll try to eat with your eyes.
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="update">
+                    <div class="prettyImg">
+                        <img src="./images/event-3.jpg" alt="">
+                    </div>
+                    <div class="date">03/09/2022</div>
+                    <div class="content">
+                        <div class="subTitle">RECIPIE</div>
+                        <h4>
+                            Flavour so good you’ll try to eat with your eyes.
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <button class="unColored-btn">VIEW OUR BLOG</button>
+        </div>
+    </div>
+    <!-- end updates -->
+
+    <!-- start footer -->
+    <footer>
+        <div class="container">
+            <div class="content">
+                <div class="main">
+                    <div class="insideContent">
+                        <div class="logo">
+                            <img src="./images/logo.svg" alt="logo">
+                        </div>
+                        <div>
+                            <p class="p-colored">Restaurant St, Delicious City, London 9578, UK</p>
+                            <a class="p-colored" href="mailto:booking@restaurant.com">booking@restaurant.com</a>                                
+                            <a class="p-colored" href="tel:">+88-123-123456</a> 
+                            <p class="p-colored">Open : 09:00 am - 01:00 pm</p>   
+                            <div class="spans">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <h2>Get News & Offers</h2>
+                            <p class="p-colored">Subscribe us & Get <span>25% Off.</span></p>
+                            <div class="subscribe">
+                                <input type="email" name="" id="" placeholder="Your email">
+                                <button class="colored-btn">
+                                    <a href="#">SUBSCRIBE</a>
+                                </button> 
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./images/form-pattern.png" alt="">
+                </div>
+                <ul class="ulF">
+                    <li>
+                        <a href="#home">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#menus">MENUS</a>
+                    </li>
+                    <li>
+                        <a href="#about-us">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a href="#services">SERVICES</a>
+                    </li>
+                    <li>
+                        <a href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="https://facebook.com">FACEBOOK</a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com">INSTAGRAM</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com">TWITTER</a>
+                    </li>
+                    <li>
+                        <a href="https://youtube.com">YOUTUBE</a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/maps/@30.8508228,29.3831022,15z?entry=ttu">GOOGLE MAP</a>
+                    </li>
+                </ul>
+            </div>
+            <p class="p-colored">© 2024 <span style="color : var(--main-color)">Habiba Eid</span>. All Rights Reserved</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
